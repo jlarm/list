@@ -29,7 +29,7 @@ test('reset password link can be requested', function () {
     Notification::assertSentTo($user, ResetPasswordNotification::class);
 });
 
-//test('reset password screen can be rendered', function () {
+// test('reset password screen can be rendered', function () {
 //    Notification::fake();
 //
 //    $user = User::factory()->create();
@@ -45,9 +45,9 @@ test('reset password link can be requested', function () {
 //
 //        return true;
 //    });
-//});
+// });
 
-//test('password can be reset with valid token', function () {
+// test('password can be reset with valid token', function () {
 //    Notification::fake();
 //
 //    $user = User::factory()->create();
@@ -69,4 +69,4 @@ test('reset password link can be requested', function () {
 //
 //        return true;
 //    });
-//});
+// });

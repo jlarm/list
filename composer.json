@@ -63,6 +63,14 @@
         "test": [
             "@php artisan config:clear --ansi",
             "@php artisan test"
+        ],
+        "pint": [
+            "@php artisan config:clear --ansi",
+            "@php artisan pint"
+        ],
+        "rector": [
+            "@php artisan config:clear --ansi",
+            "@php artisan rector"
         ]
     },
     "extra": {
