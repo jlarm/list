@@ -26,7 +26,6 @@
                     @foreach(\App\Enums\Role::cases() as $role)
                     <flux:radio value="{{ $role->value }}" label="{{ $role->label() }}" />
                     @endforeach
-                    <flux:radio label="Child" />
                 </flux:radio.group>
 
 
